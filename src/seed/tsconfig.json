@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // Compatibilidad moderna con Node
+    "module": "CommonJS",                        // O "ESNext" si usas ESM
+    "moduleResolution": "node",                  // Resolución de módulos estilo Node
+    "outDir": "dist",                            // Carpeta de salida
+    "rootDir": "src",                            // Carpeta fuente
+    "strict": true,                              // Tipado estricto
+    "esModuleInterop": true,                     // Permite importar módulos CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,                   // Permite importar JSON
+    "types": ["node"],                           // Tipos de Node.js
+    "noEmitOnError": true                        // No compila si hay errores
+  },
+  "include": ["src"],                            // Archivos a compilar
+  "exclude": ["node_modules", "dist", "test"]    // Archivos a ignorar
+}
