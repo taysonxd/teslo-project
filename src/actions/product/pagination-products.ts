@@ -1,7 +1,7 @@
 'use server'
 
 import { Gender } from "@/generated/prisma";
-import prisma from "@/lib/prisma"
+import prisma from "@/lib/prisma";
 
 interface PaginationProps {
     gender?: string;
