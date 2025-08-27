@@ -1,10 +1,10 @@
 
 import bcryptjs from 'bcryptjs'
 
-import { Category } from '../generated/prisma';
 import prisma from '../lib/prisma';
 import { initialData } from './seed';
 import { countries } from './seed-countries';
+import { Category } from '@prisma/client';
 
 async function main() {
     
