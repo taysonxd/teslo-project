@@ -2,7 +2,7 @@ export const revalidate = 60;
 
 import { getPaginatedProductsWithImages } from "@/actions";
 import { Pagination, ProductosGrid, Title } from "@/components";
-import { Gender } from "@/generated/prisma";
+import { Gender } from "@prisma/client";
 
 interface Props {
   searchParams: Promise<{
